@@ -6,7 +6,7 @@
         <body>
             <div id="main">
                 <span id="labelText"></span>
-               <select id="userinput">
+               <select id="userInput">
                 	<option value"227901">Austin ISD</option>
                 	<option value"101912">Houston ISD</option>
                 </select>
@@ -23,7 +23,7 @@
                             //you should valid attribute to data for JotForm
                             //to be able to use youw widget as required
                             valid: true,
-                            value: document.getElementById('userinput').value
+                            value: document.getElementById('userInput').value
                         }
                         // send value to JotForm
                         JFCustomWidget.sendSubmit(msg);
